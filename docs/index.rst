@@ -16,7 +16,6 @@ Welcome to the Moving Rainbow documentation!
 Moving Rainbow
 **************
 
-
 Learing to program using LED strips
 ###################################
 
@@ -48,9 +47,28 @@ In our projects we use 1/2 sized breadboard with 400 tie points.
 Mode Buttons
 ------------
 
-Moving Dot
-==================
 
+Programming the LED strip
+=========================
+
+Header
+::
+#include <Adafruit_NeoPixel.h>
+const int LED_STRIP_PIN = 12; // Connect the Data pin of the LED strip here
+const int NUMBER_PIXELS = 60;
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMBER_PIXELS, LED_STRIP_PIN, NEO_GRB + NEO_KHZ800);
+
+void setup() {
+strip.begin();
+}
+
+void loop() {
+   strip.setPixelColor(0, 255, 0, 0);
+   strip.show();
+   delay(1000);
+   strip.setPixelColor(0, 0, 0, 0);
+   delay(1000);
+}
 Moving Rainbow
 ==================
 
@@ -61,5 +79,4 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
