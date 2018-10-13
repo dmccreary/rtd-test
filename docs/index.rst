@@ -43,6 +43,7 @@ Arduino Nanos are the lowest cost member of the Arduino family.  They are small 
 Breadboards
 -----------
 In our projects we use 1/2 sized breadboard with 400 tie points.
+.. image:: images/breadboard.jpg
 
 Mode Buttons
 ------------
