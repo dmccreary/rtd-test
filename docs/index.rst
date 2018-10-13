@@ -3,25 +3,51 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to rtd-test's documentation!
+Welcome to the Moving Rainbow documentation!
 ====================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-Chapter 1
+**************
+Moving Rainbow
+**************
+
+
+Learing to program using LED strips
+###################################
+
+About Moving Rainbow
+==================
+Moving Rainbow is a way to learn the basics of programming using LED strips.  We use low-cost components so
+you can build an entire costume with 100s of LEDs for under $20
+
+Getting Started
 ==================
 
-Chapter 2
+Addressible LED Strips
+----------------------
+Addressible LED strips are easy to connect to your project since they only need three wires (Ground, +5V and data).
+LED strip can be purchased on sites like ebay.com for under $5/meter of 60 RGB LEDs.
+
+Arduino Nanos
+------------_
+
+Breadboards
+----------_
+
+Mode Buttons
+------------
+
+Moving Dot
 ==================
 
-Chapter 3
+Moving Rainbow
 ==================
 
-Chapter 4
+Adding Modes
 ==================
-
 
 Indices and tables
 ==================
