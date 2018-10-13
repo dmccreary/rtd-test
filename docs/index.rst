@@ -52,7 +52,7 @@ Programming the LED strip
 =========================
 
 Header
-::
+.. code-block:: C
     #include <Adafruit_NeoPixel.h>
     const int LED_STRIP_PIN = 12; // Connect the Data pin of the LED strip here
     const int NUMBER_PIXELS = 60;
