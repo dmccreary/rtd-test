@@ -12,6 +12,10 @@ Welcome to the Moving Rainbow documentation!
    :maxdepth: 2
    :caption: Contents:
 
+    About Moving Rainbow
+    Getting Started
+    Programming
+    
 **************
 Moving Rainbow
 **************
@@ -52,8 +56,15 @@ Mode Buttons
 Programming the LED strip
 =========================
 
+Each of our example programs will have at least three sections:
+#. The preamble - this constains the library directives and initialization of static unchanging variables
+#. The setup() function - this function is run once with the Arduion first starts up
+#. The loop function - this function runs continually as long at the Arduino has power
+
 Header
 .. code-block:: C
+    :linenos:
+
     #include <Adafruit_NeoPixel.h>
     const int LED_STRIP_PIN = 12; // Connect the Data pin of the LED strip here
     const int NUMBER_PIXELS = 60;
